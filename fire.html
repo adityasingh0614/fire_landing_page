@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fire and Electric Safety | Statutory Fire &amp; Electrical Risk Audits | EGSS</title>
+<meta name="description" content="Statutory fire safety audits, high-voltage electrical risk diagnostics and architectural egress forensics engineered to withstand regulatory, lender and insurance cross-examination. NBC 2016 Part 4, TAC, IS 2189, NFPA 101.">
+<link rel="canonical" href="https://www.ehsguru.com/fire-electrical-life-safety/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#05070A">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fire and Electric Safety — EGSS">
+<meta property="og:title" content="Fire and Electric Safety | Engineering precision where compliance alone is not enough | EGSS">
+<meta property="og:description" content="Pan-India statutory fire diagnostics, arc-flash and riser thermography, NABL-calibrated instrumentation, and defensible codal findings.">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/fire.css?v=1">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"ProfessionalService",
+      "@id":"https://www.ehsguru.com/#egss",
+      "name":"EGSS — EHS Guru Sustainable Solutions Pvt. Ltd.",
+      "description":"India's specialized statutory fire engineering, electrical risk audit, and life safety technical advisory practice.",
+      "url":"https://www.ehsguru.com/",
+      "telephone":"+91-124-400-8920",
+      "email":"compliance@ehsguru.com",
+      "address":{
+        "@type":"PostalAddress",
+        "streetAddress":"DLF Cyber City, Phase II",
+        "addressLocality":"Gurugram",
+        "addressRegion":"Haryana",
+        "postalCode":"122002",
+        "addressCountry":"IN"
+      },
+      "areaServed":{"@type":"Country","name":"India"},
+      "knowsAbout":["NBC 2016 Part 4","TAC Rules","IS 2189","IS 3034","IS 13039","IE Rules 1956","CEA Regulations 2010","IS 732","IEC 60079","NFPA 101","Arc flash analysis","FLIR thermography"]
+    },
+    {
+      "@type":"Service",
+      "name":"Statutory Fire Safety & Electrical Risk Audit",
+      "provider":{"@id":"https://www.ehsguru.com/#egss"},
+      "areaServed":{"@type":"Country","name":"India"},
+      "hasOfferCatalog":{
+        "@type":"OfferCatalog",
+        "name":"Operating Modes",
+        "itemListElement":[
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Assess & Audit"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Consult & Design"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Test & Commission"}},
+          {"@type":"Offer","itemOffered":{"@type":"Service","name":"Monitor & Review"}}
+        ]
+      }
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"We already hold a valid Fire NOC. Why do we need an EGSS audit?","acceptedAnswer":{"@type":"Answer","text":"A Fire NOC certifies the building as designed and handed over. It does not test what the asset does today under real load, after fit-out churn, riser modifications and ageing valves. Our audit re-tests the installed system against NBC 2016 Part 4 and records the evidence a judicial inquiry or insurer will ask for."}},
+        {"@type":"Question","name":"Our AMC maintenance contractor already checks pumps and alarms every month.","acceptedAnswer":{"@type":"Answer","text":"AMC visits confirm that equipment runs. They rarely measure hydrant flow pressure at the worst-case outlet, obscuration sensitivity of detectors, diesel pump auto-start curves, or busbar thermals at real load. An AMC log is a maintenance record; a codal audit is a defensible finding."}},
+        {"@type":"Question","name":"Our building is a Grade-A commercial office with low hazard loads. Are we really at risk?","acceptedAnswer":{"@type":"Answer","text":"Grade-A stock fails on the same three vectors as any other: concealed void partitions created during fit-outs, electrical riser and busbar faults under high density loads, and egress routes altered after occupancy. Over 75% of catastrophic commercial fires trace to hidden electrical faults, not to occupancy class."}},
+        {"@type":"Question","name":"What is the typical turnaround for investor due diligence assessments?","acceptedAnswer":{"@type":"Answer","text":"Scope and brief close within 48 hours of engagement. Forensic field work is scheduled to the asset. A classified gap matrix with red-flag items is issued within 48 hours of the site visit, with the full engineering report and prioritized CAPEX/OPEX plan following the remediation consult."}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ============ TOP APP BAR ============ -->
+<header class="header">
+  <div class="header__inner">
+    <a class="brand" href="/" aria-label="Fire and Electric Safety">
+      <img class="brand__logo" src="assets/images/shared/ehs-guru-logo.png" alt="Fire and Electric Safety" width="168" height="64" loading="eager">
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a href="#reality">Reality</a>
+      <a href="#modes">Operating Modes</a>
+      <a href="#telemetry">Telemetry</a>
+      <a href="#standards">Standards</a>
+      <a href="#process">5-Stage Process</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header__actions">
+      <a class="btn btn--primary btn--sm" href="#scoping">
+        Request a Consultation
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+
+      <!-- Same six links plus the hotline: mobile loses no navigation. -->
+      <details class="menu">
+        <summary aria-label="Open menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </summary>
+        <div class="menu__panel">
+          <a href="#reality">Reality</a>
+          <a href="#modes">Operating Modes</a>
+          <a href="#telemetry">Telemetry</a>
+          <a href="#standards">Standards</a>
+          <a href="#process">5-Stage Process</a>
+          <a href="#faq">FAQ</a>
+          <a class="menu__hotline" href="tel:+911244008920">+91 124 400 8920</a>
+        </div>
+      </details>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ 1. HERO ============ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero__inner">
+
+      <p class="hero__tag label label--orange eyebrow">Fire &amp; Electric Safety &middot; Pan-India Statutory Diagnostics &middot; NBC 2016 Part 4</p>
+
+      <div class="hero__head">
+        <h1 class="h1" id="hero-title">
+          Engineering precision<br>
+          <span class="grad">where compliance alone</span><br>
+          is not enough.
+        </h1>
+
+        <div class="hero__aside">
+          <p class="hero__aside-title">Not a checklist. A defensible finding.</p>
+          <p>Statutory fire safety audits, high-voltage electrical risk diagnostics, and architectural egress forensics engineered to withstand regulatory, lender, and insurance cross-examination.</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#scoping">
+              Request a Consultation
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="https://wa.me/911244008920">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 01-12.7 7.4L3 21l2.2-5.1A8.5 8.5 0 1121 11.5z"/></svg>
+              WhatsApp Desk
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <figure class="hero__visual">
+        <img class="ph" onerror="this.style.visibility='hidden'" src="assets/images/fire/hero-tower-thermal.jpeg" alt="Commercial tower at night with fire and electrical riser telemetry overlaid" width="1232" height="520" fetchpriority="high">
+
+        <figcaption class="hud hud--tl">
+          <span class="hud__row">
+            <span class="hud__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2s5 4.5 5 9a5 5 0 01-10 0c0-1.7.7-3.3 1.6-4.6.4 1.4 1.3 2.3 2.4 2.6C11 7 12 4.5 12 2z"/></svg>
+            </span>
+            <span>
+              <span class="label label--orange">Fire Safety Enclosure</span>
+              <span class="hud__title">NBC 2016 Part 4 &bull; Riser Delta-P OK</span>
+            </span>
+          </span>
+        </figcaption>
+
+        <figcaption class="hud hud--tr">
+          <span class="hud__row">
+            <span class="hud__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>
+            </span>
+            <span>
+              <span class="label label--cyan">Arc-Flash Riser Diagnostic</span>
+              <span class="hud__title">IS 2189 / IEEE 1584 Verified</span>
+            </span>
+          </span>
+        </figcaption>
+
+        <figcaption class="telemetry">
+          <span class="telemetry__live">Telemetry: Active 24/7</span>
+          <span><span class="k">Flow Rate:</span> <b>2,850 LPM @ 7.2 BAR</b></span>
+          <span><span class="k k--cyan">Panel Thermal:</span> <b>Nominal (28.4&deg;C)</b></span>
+          <span class="telemetry__node">Calibrated Node: <span class="telemetry__chip">NABL-ACCR-4981</span></span>
+        </figcaption>
+      </figure>
+
+      <ul class="proof">
+        <li class="proof__item">
+          <svg class="proof__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V10m14 11V10M12 3l9 5H3zM9 21V10m6 11V10"/></svg>
+          <span><span class="proof__title">Multilateral Approved</span><span class="proof__meta">IFC, World Bank, ADB guidelines</span></span>
+        </li>
+        <li class="proof__item">
+          <svg class="proof__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 21V5a2 2 0 012-2h7a2 2 0 012 2v16M15 21V11h3a2 2 0 012 2v8M8 7h3M8 11h3M8 15h3"/></svg>
+          <span><span class="proof__title">Enterprise Client Base</span><span class="proof__meta">Tata, JLL, Google, Knight Frank</span></span>
+        </li>
+        <li class="proof__item">
+          <svg class="proof__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="2.4"/><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="19" cy="18" r="2"/><path d="M6.6 7.4l3.7 3.2M17.4 7.4l-3.7 3.2M6.6 16.6l3.7-3.2M17.4 16.6l-3.7-3.2"/></svg>
+          <span><span class="proof__title">Rapid Deployment</span><span class="proof__meta">4 Strategic Hubs + 9 Satellites</span></span>
+        </li>
+        <li class="proof__item">
+          <svg class="proof__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l2.3 2 3.1-.4 1 3 2.7 1.6-1.3 2.9 1.3 2.9-2.7 1.6-1 3-3.1-.4L12 20l-2.3-2-3.1.4-1-3L2.9 13.9l1.3-2.9L2.9 8.1 5.6 6.6l1-3 3.1.4z"/><path d="M9 12l2 2 4-4"/></svg>
+          <span><span class="proof__title">150+ Specialized Audits</span><span class="proof__meta">EHS &amp; Statutory Fire Practice</span></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 2. THE REGULATORY REALITY ============ -->
+  <section class="section" id="reality" aria-labelledby="reality-title">
+    <div class="container">
+      <div class="split-head">
+        <div>
+          <p class="label label--orange eyebrow">Statutory Accountability</p>
+          <h2 class="h2" id="reality-title" style="margin-top:14px">The fire code was written after the fire.</h2>
+        </div>
+        <p class="split-head__note">AMRI. Uphaar. Kamala Mills. Disasters re-write statutory laws. In real audits, director liability is personal under the Factories &amp; Fire Acts.</p>
+      </div>
+
+      <div class="stats">
+        <article class="stat">
+          <span class="stat__num">0%</span>
+          <span class="stat__title">Guesswork or Visual Speculation</span>
+          <p>Every valve, damper, cable duct and flow pressure is tested with physical calibrated telemetry.</p>
+        </article>
+        <article class="stat stat--cyan">
+          <span class="stat__num">100%</span>
+          <span class="stat__title">Codified Codal Reference</span>
+          <p>Each non-compliance explicitly binds to NBC 2016, TAC, IS 2189, or State Directorate directives.</p>
+        </article>
+        <article class="stat">
+          <span class="stat__num">Zero</span>
+          <span class="stat__title">Flashover &amp; Electrical Tolerance</span>
+          <p>75%+ catastrophic commercial fires trace to hidden electrical riser faults; our FLIR scans catch them cold.</p>
+        </article>
+      </div>
+
+      <div class="compare">
+        <article class="compare__card">
+          <div class="compare__top">
+            <span class="label">Conventional Vendors</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </div>
+          <h3 class="h3">The Perfunctory Paper Checklist</h3>
+          <p>Tick-box questionnaires signed by sales reps. Concealed void partitions, aging pressure valves, dry-riser leaks, and modified egress layouts pass undetected until disaster strikes.</p>
+          <p class="compare__result">Result: Zero statutory defense in judicial inquiry.</p>
+        </article>
+
+        <article class="compare__card compare__card--good">
+          <div class="compare__top">
+            <span class="label">The EGSS Forensic Method</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg>
+          </div>
+          <h3 class="h3">The Defensible Technical Finding</h3>
+          <p>Physical hydro-testing, real-load busbar thermography, calibrated smoke obscuration sweeps, and photographic engineering matrices with prioritized CAPEX/OPEX fixes.</p>
+          <p class="compare__result">Result: Legally robust, auditor-approved, executive-defended.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. WHAT EGSS DOES ============ -->
+  <section class="section section--alt" id="modes" aria-labelledby="modes-title">
+    <div class="container">
+      <div class="split-head">
+        <div>
+          <p class="label label--cyan eyebrow">Operational Matrix</p>
+          <h2 class="h2" id="modes-title" style="margin-top:14px">What EGSS Does.</h2>
+        </div>
+        <p class="split-head__note">Four dedicated engineering wings architected to protect commercial towers, heavy manufacturing, and data infrastructure.</p>
+      </div>
+
+      <div class="modes">
+        <article class="mode">
+          <span class="mode__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 20h12M9 20V9l-2-2 5-5 2 2-2 2v14M14 12h4M14 16h4"/></svg>
+          </span>
+          <span class="mode__kicker label label--orange">Mode 01</span>
+          <h3 class="h3">Assess &amp; Audit</h3>
+          <ul class="mode__list">
+            <li>NBC 2016 Part 4 Gap Audit</li>
+            <li>Arc Flash &amp; Electrical Risk</li>
+            <li>FLIR Thermography Scans</li>
+            <li>Passive Containment Voids</li>
+          </ul>
+          <div class="mode__foot"><span class="label label--orange">Diagnostic Field Force</span></div>
+        </article>
+
+        <article class="mode">
+          <span class="mode__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4l7 7M20 4l-7 7M9 13l-5 7M15 13l5 7M12 9.5v5"/></svg>
+          </span>
+          <span class="mode__kicker label label--cyan">Mode 02</span>
+          <h3 class="h3">Consult &amp; Design</h3>
+          <ul class="mode__list">
+            <li>Statutory Fire NOC Filing</li>
+            <li>Emergency Response Plans</li>
+            <li>LOTO Isolation Protocols</li>
+            <li>Evacuation CFD Modeling</li>
+          </ul>
+          <div class="mode__foot"><span class="label label--cyan">Life Safety Engineering</span></div>
+        </article>
+
+        <article class="mode">
+          <span class="mode__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 12l4-3M12 7v1"/></svg>
+          </span>
+          <span class="mode__kicker label label--orange">Mode 03</span>
+          <h3 class="h3">Test &amp; Commission</h3>
+          <ul class="mode__list">
+            <li>Hydrant Hydrostatic Flow Runs</li>
+            <li>IS 2189 Sensor Calibration</li>
+            <li>Diesel Pump Auto-Start Curve</li>
+            <li>Egress Flow Time Trials</li>
+          </ul>
+          <div class="mode__foot"><span class="label label--orange">Hydro &amp; Calibration Desk</span></div>
+        </article>
+
+        <article class="mode">
+          <span class="mode__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l8 3v6c0 4.4-3.2 7.9-8 9-4.8-1.1-8-4.6-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+          </span>
+          <span class="mode__kicker label label--cyan">Mode 04</span>
+          <h3 class="h3">Monitor &amp; Review</h3>
+          <ul class="mode__list">
+            <li>Annual Retainer Audits</li>
+            <li>Forensic Incident Inquests</li>
+            <li>TAC Underwriting Representation</li>
+            <li>Multi-Asset Portfolio Portals</li>
+          </ul>
+          <div class="mode__foot"><span class="label label--cyan">Statutory Governance</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. DIAGNOSTIC TELEMETRY & DIGITAL TWIN ============ -->
+  <section class="section" id="telemetry" aria-labelledby="telemetry-title">
+    <div class="container twin">
+      <figure class="twin__visual">
+        <figcaption class="twin__stamp">RISER_CROSS_SECTION // INFRARED TELEMETRY</figcaption>
+        <img class="ph" onerror="this.style.visibility='hidden'" src="assets/images/fire/riser-cross-section-infrared.jpeg" alt="Infrared cross-section of a building riser showing thermal load across floors" width="584" height="420" loading="lazy">
+        <figcaption class="twin__read twin__read--l">Phase Delta: +2.1% (Safe)</figcaption>
+        <figcaption class="twin__read twin__read--r">Max Busbar Temp: 42&deg;C</figcaption>
+      </figure>
+
+      <div class="twin__copy">
+        <p class="label label--orange eyebrow">Precision Hardware Validation</p>
+        <h2 class="h2" id="telemetry-title">NABL-Calibrated Sensor Verification.</h2>
+        <p>Standard visual audits miss pressurized circuit leakage and hidden panel thermals. We deploy calibrated field instruments that quantify flow pressures, smoke obscuration curves, and busbar resistance in real-time.</p>
+
+        <div class="node-card">
+          <img class="node-card__img ph" onerror="this.style.visibility='hidden'" src="assets/images/fire/sensor-node-hydraulic.png" alt="Hydraulic pressure and actuation sensor node" width="72" height="72" loading="lazy">
+          <div>
+            <span class="label label--cyan">Diagnostic Sensor Node</span>
+            <h3 class="h3">Hydraulic Pressure &amp; Actuation Sensor</h3>
+            <p>Continuous pressure loss monitoring across high-bay riser networks.</p>
+          </div>
+        </div>
+
+        <div class="instruments">
+          <div class="instrument"><b>FLIR E96</b><span>640&times;480 Thermal Optics</span></div>
+          <div class="instrument"><b>Pitot Tube Gauge</b><span>Class 0.5 Flow Accuracy</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. STANDARDS & CODES ============ -->
+  <section class="section section--alt" id="standards" aria-labelledby="standards-title">
+    <div class="container">
+      <div class="center-head">
+        <p class="label label--orange eyebrow">Authoritative Standards Grid</p>
+        <h2 class="h2" id="standards-title" style="margin-top:14px">A fire safety audit referenced against nothing is worth zero.</h2>
+        <p class="sub">Every non-compliance cites standard, subsection, and defensible rectification clause.</p>
+      </div>
+
+      <div class="codes">
+        <article class="code"><span class="code__ref label">NBC 2016 Part 4</span><span class="code__name">Fire &amp; Life Safety</span><span class="code__note">Occupancy &amp; Egress</span></article>
+        <article class="code"><span class="code__ref label">TAC Rules</span><span class="code__name">Tariff Advisory Committee</span><span class="code__note">Insurance Compliance</span></article>
+        <article class="code"><span class="code__ref label">IS 2189</span><span class="code__name">Automatic Detection</span><span class="code__note">Sensors &amp; Heat Alarms</span></article>
+        <article class="code"><span class="code__ref label">IS 3034</span><span class="code__name">Industrial Plant Safety</span><span class="code__note">Factory Layout Protocols</span></article>
+        <article class="code"><span class="code__ref label">IS 13039</span><span class="code__name">External Hydrants</span><span class="code__note">Pumps &amp; Header Mains</span></article>
+        <article class="code"><span class="code__ref label">IE Rules 1956</span><span class="code__name">CEA Regulations 2010</span><span class="code__note">High Voltage Safety</span></article>
+        <article class="code"><span class="code__ref label">IS 732</span><span class="code__name">Electrical Wiring</span><span class="code__note">Distribution Panels</span></article>
+        <article class="code"><span class="code__ref label">IEC 60079</span><span class="code__name">ATEX Explosive Atmos</span><span class="code__note">Gas &amp; Vapor Zones</span></article>
+        <article class="code"><span class="code__ref label">NFPA 101</span><span class="code__name">Life Safety Code</span><span class="code__note">Occupant Egress Travel</span></article>
+        <article class="code"><span class="code__ref label">IFC Performance</span><span class="code__name">World Bank EHS Code</span><span class="code__note">Cross-Border Lenders</span></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. 5-STAGE LIFECYCLE ============ -->
+  <section class="section" id="process" aria-labelledby="process-title">
+    <div class="container">
+      <div class="split-head">
+        <div>
+          <p class="label label--cyan eyebrow">Execution Pipeline</p>
+          <h2 class="h2" id="process-title" style="margin-top:14px">5-Stage Audit &amp; Remediation.</h2>
+        </div>
+        <p class="split-head__note">A phased workflow moving from blueprint review to on-site testing, classified gap matrices, and continuous governance.</p>
+      </div>
+
+      <div class="stages">
+        <article class="stage">
+          <span class="stage__step label">01 // Scope</span>
+          <h3 class="h3">Scope &amp; Brief</h3>
+          <p>Occupancy taxonomy, CAD layout scans, and jurisdictional fire mandate mapping.</p>
+          <div class="stage__foot">
+            <span class="label">T-0 to 48h</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8zM14 3v5h5M9 13h6M9 17h4"/></svg>
+          </div>
+        </article>
+
+        <article class="stage">
+          <span class="stage__step label">02 // On-Site</span>
+          <h3 class="h3">Forensic Field</h3>
+          <p>Hydrant flow runs, FLIR thermography scans, riser inspection, and smoke sensitivity.</p>
+          <div class="stage__foot">
+            <span class="label">Site Visit</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1"/></svg>
+          </div>
+        </article>
+
+        <article class="stage">
+          <span class="stage__step label">03 // Findings</span>
+          <h3 class="h3">Gap Matrix</h3>
+          <p>Classified codal deviation matrix, photo evidence logs, and prioritized CAPEX/OPEX.</p>
+          <div class="stage__foot">
+            <span class="label">Red Flag 48h</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 20V4M4 5h13l-2 4 2 4H4"/></svg>
+          </div>
+        </article>
+
+        <article class="stage">
+          <span class="stage__step label">04 // Consult</span>
+          <h3 class="h3">Remediation</h3>
+          <p>Engineering advisory, contractor rectification oversight, and statutory Fire NOC filing.</p>
+          <div class="stage__foot">
+            <span class="label">Advisory</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M17 8h5M19.5 5.5v5"/></svg>
+          </div>
+        </article>
+
+        <article class="stage">
+          <span class="stage__step label">05 // Review</span>
+          <h3 class="h3">Annual Lock</h3>
+          <p>Periodic surprise verification, live drill certification, and asset portal tracking.</p>
+          <div class="stage__foot">
+            <span class="label">Continuous</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 7. OBJECTION HANDLING / FAQ ============ -->
+  <section class="section section--alt" id="faq" aria-labelledby="faq-title">
+    <div class="container">
+      <div class="center-head">
+        <p class="label label--orange eyebrow">Pre-Engagement Technical Clarifications</p>
+        <h2 class="h2" id="faq-title" style="margin-top:14px">Clear Answers to Critical Objections.</h2>
+      </div>
+
+      <!-- COPY: the Figma accordion is drawn closed, so no answer text exists in the
+           source file. Answers below are drafted to the section's voice — client to confirm. -->
+      <div class="faq">
+        <details class="faq__item">
+          <summary>We already hold a valid Fire NOC. Why do we need an EGSS audit?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p>A Fire NOC certifies the building as designed and handed over. It does not test what the asset does today after fit-out churn, riser modifications and ageing valves. We re-test the installed system against NBC 2016 Part 4 under real load and record the evidence a judicial inquiry or insurer will actually ask for.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>Our AMC maintenance contractor already checks pumps and alarms every month.
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p>AMC visits confirm that equipment runs. They rarely measure hydrant flow pressure at the worst-case outlet, detector obscuration sensitivity, diesel pump auto-start curves, or busbar thermals at real load. An AMC log is a maintenance record; a codal audit is a defensible finding.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>Our building is a Grade-A commercial office with low hazard loads. Are we really at risk?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p>Grade-A stock fails on the same three vectors as everything else: concealed void partitions created during fit-outs, electrical riser and busbar faults under high-density loads, and egress routes altered after occupancy. Over 75% of catastrophic commercial fires trace to hidden electrical faults, not to occupancy class.</p>
+        </details>
+
+        <details class="faq__item">
+          <summary>What is the typical turnaround for investor due diligence assessments?
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+          </summary>
+          <p>Scope and brief close within 48 hours of engagement. Forensic field work is scheduled to the asset. A classified gap matrix with red-flag items is issued within 48 hours of the site visit, with the full engineering report and prioritized CAPEX/OPEX plan following the remediation consult.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. TECHNICAL SCOPING PORTAL ============ -->
+  <section class="section" id="scoping" aria-labelledby="scoping-title">
+    <div class="container">
+      <div class="portal">
+        <div class="portal__copy">
+          <p class="label label--orange eyebrow">Direct Technical Desk</p>
+          <h2 class="h2" id="scoping-title">Initiate facility scoping or technical audit.</h2>
+          <p>Connect directly with our Lead Fire &amp; Electrical Safety Engineers. No call center delays. Zero cost for preliminary scoping assessments.</p>
+
+          <ul class="portal__points">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+              Scope response within 4 business hours
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>
+              Standard Mutual NDA executed upon request
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v18M3 12h18M6 6l12 12M18 6L6 18"/></svg>
+              Hubs: Gurugram, Mumbai, Bengaluru, Chennai
+            </li>
+          </ul>
+
+          <div class="portal__hotline">
+            <span class="label">Direct Engineering Hotline</span>
+            <strong><a href="tel:+911244008920">+91 124 400 8920</a></strong>
+            <a href="mailto:compliance@ehsguru.com">compliance@ehsguru.com</a>
+          </div>
+        </div>
+
+        <form class="form" method="post" action="#" novalidate>
+          <div class="field-row">
+            <label class="field">
+              <span class="label">Your Name <span class="req">*</span></span>
+              <input type="text" name="name" placeholder="e.g. Vikram Malhotra" autocomplete="name" required>
+            </label>
+            <label class="field">
+              <span class="label">Role / Title <span class="req">*</span></span>
+              <input type="text" name="role" placeholder="e.g. Head of EHS / Facility Lead" autocomplete="organization-title" required>
+            </label>
+          </div>
+
+          <div class="field-row">
+            <label class="field">
+              <span class="label">Company / Organization <span class="req">*</span></span>
+              <input type="text" name="company" placeholder="e.g. Nexus Tech Parks Ltd" autocomplete="organization" required>
+            </label>
+            <label class="field">
+              <span class="label">Facility City / State <span class="req">*</span></span>
+              <input type="text" name="city" placeholder="e.g. Manesar, Haryana" autocomplete="address-level2" required>
+            </label>
+          </div>
+
+          <div class="field-row">
+            <label class="field">
+              <span class="label">Work Email <span class="req">*</span></span>
+              <input type="email" name="email" placeholder="v.malhotra@nexus.com" autocomplete="email" required>
+            </label>
+            <label class="field">
+              <span class="label">Phone / WhatsApp <span class="req">*</span></span>
+              <input type="tel" name="phone" placeholder="+91 98765 43210" autocomplete="tel" required>
+            </label>
+          </div>
+
+          <div class="field-row">
+            <label class="field">
+              <span class="label">Building / Facility Type <span class="req">*</span></span>
+              <select name="facility" required>
+                <option>Commercial Office / IT Park</option>
+                <option>Manufacturing Plant / Factory</option>
+                <option>Warehouse / Logistics Park</option>
+                <option>Data Centre</option>
+                <option>Hospital / Healthcare</option>
+                <option>Retail / Mall / Hospitality</option>
+                <option>Residential High-Rise</option>
+              </select>
+            </label>
+            <label class="field">
+              <span class="label">Primary Enquiry Driver <span class="req">*</span></span>
+              <select name="driver" required>
+                <option>Statutory NBC 2016 Part 4 Audit</option>
+                <option>Fire NOC Filing &amp; Renewal</option>
+                <option>Arc Flash / Electrical Risk Study</option>
+                <option>FLIR Thermography Survey</option>
+                <option>Hydrant &amp; Pump Commissioning</option>
+                <option>Insurance / TAC Representation</option>
+                <option>Investor Due Diligence</option>
+              </select>
+            </label>
+          </div>
+
+          <button class="btn btn--primary btn--block" type="submit">
+            Submit Technical Scoping Request
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5l11 7-11 7z"/></svg>
+          </button>
+          <p class="form__note">Preliminary scoping is free of charge &bull; Mutual NDA on request</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a class="brand" href="/" aria-label="EGSS home">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span class="brand__name">EGSS</span>
+        <span class="brand__tag">Defensible Engineering</span>
+      </a>
+      <p>EHS Guru Sustainable Solutions Pvt. Ltd. (EGSS) is India's specialized statutory fire engineering, electrical risk audit, and life safety technical advisory practice.</p>
+      <p class="footer__addr">
+        <b>Gurugram Operations HQ:</b>
+        DLF Cyber City, Phase II, Gurugram, Haryana 122002, India
+      </p>
+      <a class="footer__site" href="https://www.ehsguru.com">www.ehsguru.com &#8599;</a>
+    </div>
+
+    <div class="footer__col">
+      <h3>Practice Areas</h3>
+      <ul>
+        <li><a href="#modes">Fire, Electrical &amp; Life Safety</a></li>
+        <li><a href="#modes">EHS &amp; Industrial Hygiene</a></li>
+        <li><a href="#modes">ESG Assurance &amp; BRSR</a></li>
+        <li><a href="#modes">Statutory Legal Compliances</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h3>Codal Benchmarks</h3>
+      <ul>
+        <li><a href="#standards">NBC 2016 Part 4 Codes</a></li>
+        <li><a href="#standards">CEA Regulations 2010</a></li>
+        <li><a href="#standards">IS 2189 / IS 3034</a></li>
+        <li><a href="#standards">NFPA 101 Life Safety</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h3>Regional Desks</h3>
+      <div class="deploy">
+        <span class="label label--cyan">24-Hour Deployment</span>
+        <p>Pan-India field audit engineers ready for immediate mobilization.</p>
+        <a href="#scoping">Launch Scoping &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <span>&copy; 2025 EHS Guru Sustainable Solutions Pvt. Ltd. All rights reserved.</span>
+    <span class="footer__legal">
+      <a href="#">Audit Protocols</a>
+      <a href="#">Statutory Terms</a>
+      <a href="#">Privacy Policy</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>

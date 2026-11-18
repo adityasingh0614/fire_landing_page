@@ -1,0 +1,16 @@
+# Dependencies & environment
+node_modules/
+.env
+.env*.local
+
+# Vercel
+.vercel
+
+# Archives & Temp files
+*.zip
+preview-screenshot.png
+screenshot-preview.png
+
+# OS metadata
+.DS_Store
+Thumbs.db
